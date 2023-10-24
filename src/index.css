@@ -1,0 +1,98 @@
+/* src/index.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+}
+
+.board button {
+  font-size: 24px;
+  width: 100px;
+  height: 100px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+}
+
+.board button:hover {
+  background-color: #5fa8d3;
+}
+
+.game-info {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.status {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+
+/* src/index.css */
+/* ... (previous styles) */
+
+.terminal-box {
+  border: 1px solid #61dafb;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* ... (remaining styles) */
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5fa8d3;
+}
+
+ol, ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin: 5px;
+}
+
+.terminal-moves {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.terminal-moves li {
+  margin-bottom: 5px;
+}
